@@ -1,4 +1,4 @@
-module github.com/rlaxogh5079/EconoScope_server
+module github.com/rlaxogh5079/EconoScope
 
 go 1.24.5
 
