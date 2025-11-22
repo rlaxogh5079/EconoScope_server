@@ -152,7 +152,6 @@ func (h *HTTPClient) PostJSON(ctx context.Context, path string, reqBody interfac
 	return nil
 }
 
-// 예: config 외부 API 사용 시
 func NewNewsAPIClient() *HTTPClient {
 	cfg := config.AppConfig
 	client := New(
